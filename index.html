@@ -245,7 +245,7 @@
 
   // CAMBIA SOLO ESTE ENLACE CUANDO TENGAS TU SMARTLINK DE ADSTERRA.
   const DAILY_GIFT_LINK="https://recompensagratis24.blogspot.com/";
-  const CPALEAD_DIRECT_LINK="https://www.mobtrk.link/wall/UBkpVqx";
+  const OFFERWALL_DIRECT_LINK="PON_AQUI_TU_ENLACE_DE_BITCOTASK"; // <-- reemplaza esto con tu enlace real de Bitcotask (con soporte para {subid} o parámetro similar)
   const GANAR_MAS_VAST_URL="https://vapid-size.com/dxmmF.zodwGENhvTZjGoUZ/OeKmy9dumZPUWlqkXP-TQc/zdN/ztEj3XMWDWUqtLNFzOMq3TMITIc/waOpQq";
   const VERCEL_API_BASE="https://cash-lynk-backend.vercel.app/api";
 
@@ -780,7 +780,7 @@
   function triggerPlaytime(){
     if(!currentUserId){notify("Primero inicia sesión.");return}
 
-    const offerwallUrl=CPALEAD_DIRECT_LINK+"?subid="+encodeURIComponent(currentUserId);
+    const offerwallUrl=OFFERWALL_DIRECT_LINK+"?subid="+encodeURIComponent(currentUserId);
     window.open(offerwallUrl,"_blank");
 
     notify("Elige una oferta y complétala. Tus monedas se sumarán automáticamente a tu saldo cuando se confirme, normalmente en pocos minutos.");
